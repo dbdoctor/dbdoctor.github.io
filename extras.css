@@ -1,0 +1,430 @@
+/* THIS IS THE EXTRAS CSS FILE */
+
+.blue ul {
+	padding: 0 0 0 17px;
+}
+
+.pane-rightside {
+  float: left;
+  padding-right: 15px;
+  width: 910px;
+}
+
+address {
+	padding-left: 25px;
+}
+
+.table-zebra {
+	width: 100%;
+}
+
+.icon {
+    display: inline;
+}
+
+/* Blue Button */
+.button.blue {
+    background: #0099FF;
+}
+
+.button.blue:hover {
+    background: #027BD7;
+		text-decoration: none;
+		color: #FFFFFF;
+}
+
+a.button.blue:focus {
+	outline: none;
+	outline-offset: none;
+}	
+
+a.button.blue:hover, a.button.blue:focus {
+	color: #FFFFFF;
+	text-decoration: none;
+}	
+
+.button.right {
+	float: right;
+}
+
+.button {
+    border: medium none;
+    border-radius: 0.3em 0.3em 0.3em 0.3em;
+    box-shadow: 0 1px 1px #1254B0;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+		font-family: "TransText",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+		font-size: 1.25em;
+    outline: medium none;
+    padding: 0.0em 0.5em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.link-external.white:after {
+    color: #FFFFFF;
+    font-size: 0.6em;
+}
+
+.button-padding {
+	padding-bottom: 50px;
+}
+	
+/* Blue Button End */
+
+
+
+
+
+
+
+
+
+div.button {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+div.button {
+    cursor: pointer;
+}
+div.button {
+    text-transform: none;
+}
+div.button {
+    overflow: visible;
+}
+div.button {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+
+.list-qa div.button {
+  background: none;
+  border: 0;
+  padding: 3px 10px;
+  display: block;
+  text-align: left;
+  width: 100%;
+}
+.list-qa div.button:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.list-qa div.button:hover .question-inner, .list-qa div.button:focus .question-inner {
+  text-decoration: underline;
+}
+
+
+/* Ad Tile */
+#static-ad
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+@media (max-width: 1200px)
+{
+	#static-ad
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+}
+
+@media (max-width: 768px)
+{
+	#static-ad
+	{
+		margin-top: 15px;
+		margin-bottom: 0px;
+	}
+
+}
+
+
+
+
+
+a.SitemapLevel1, a.SitemapLevel2, a.SitemapLevel3  {
+	font-size:90%;
+}
+a.SitemapLevel1 {
+	padding-left:2em;
+}
+a.SitemapLevel2 {
+	padding-left:4em;
+}
+a.SitemapLevel3 {
+	padding-left:6em;
+	
+}
+
+
+/* Maritime Webcam Styles */
+#video-player {
+	width: 645px;
+	height: 500px;
+	border: none;
+}
+
+#weather-widgets {
+	width: 645px;
+	height: 400px;
+	border: none;
+}
+
+@media (max-width: 650px) {
+	#video-player {
+		width: 320px;
+		height: 250px;
+	}
+	
+	#weather-widgets {
+		width: 320px;
+		height: 240px;
+	}
+
+}
+
+
+
+
+
+
+TD.DATA { 
+	text-align: center;
+	background-color: white !important;
+	font-size: x-small;
+	font-family: sans-serif;
+}
+TD.NODATA { 
+	text-align: center;
+	background-color: lightgrey !important;
+	font-size: x-small;
+	font-family: sans-serif;
+}
+TD.EXCEED { 
+	text-align: center;
+	background-color: #ff3300 !important;
+	font-size: x-small;
+	font-family: sans-serif;
+	color:#ffffff;
+}
+
+P.NOTE {
+	font-size: x-small;
+	font-style: italic;
+}
+
+td.bodytext {
+    line-height:1.3em;
+    font-size:070%;
+}
+
+
+	table#m5airqualdatatable, table#tableofdata_key {
+		background:#ddeeff;	
+		border-collapse: collapse;	
+	}
+	
+	table#m5airqualdatatable td, table#m5airqualexceedancetableXXX td, table#m5airqualexceedancetableXXX, table#m5airqualdatatable th, table#tableofdata_key td {
+		border:1px solid black;
+		border-collapse: collapse;	
+		vertical-align:top;	
+		margin:0.5em;	
+		padding:0.5em;
+		line-height:1.0 !important;
+	}
+	
+	table.tableofdata_footnotes, table#m5airqualdatatable, table#m5airqualexceedancetable, table#tableofdata_key  {
+		width:680px;		
+	}
+	
+	th.limits, td.limits, th.nolimits, td.nolimits  {
+		background-color: #DDEEFF !important;
+	}
+	
+	table#m5airqualexceedancetable ul {
+		margin-left:2em;
+		padding-left:0;
+		padding-bottom:2em;
+	}
+	
+	
+	
+#flashcontent {
+	/* position:absolute; */
+	z-index:10;
+	/*left:222px;*/
+	/*top:249px;*/
+	width:700px;
+	height:520px;
+	background-color: #CCCCCC !important;
+	border:1px solid black;
+}
+
+img.m5bar {
+	width: 2px;
+	padding:0;
+	margin:0;
+	padding-right:1px;
+	margin-bottom:-2px;
+}
+
+img.m5bar {
+    display: inline;
+}
+img.m5bar {
+    vertical-align: baseline;
+}
+
+
+
+* html img.m5bar {
+	margin-bottom:-5px;
+}
+
+td.pm10graph {
+	background:url(/roadprojects/autoupdate/m5eastcurrentairqualitydata/images/graph_lines_pm10.gif);
+	background-position: bottom left;
+	vertical-align:bottom !important;
+ }
+td.no2graph {
+	background:url(/roadprojects/autoupdate/m5eastcurrentairqualitydata/images/graph_lines.gif);
+	background-position: bottom left;
+	vertical-align:bottom !important;
+}
+ 
+td.no2graph p, td.pm10graph p {
+	margin-bottom:0;
+}
+
+table.m5graph td, table.m5graph th {
+	borderX:1px solid orange;
+	vertical-align:bottom;
+	margin:0 !important;
+	padding:0 !important;
+	border:none !important;
+	background-color:white !important;
+} 
+
+table.m5graph {
+	width: 578px !important;
+	border-collapse:collapse;
+}
+
+table.noformat td, table.noformat th {
+	padding:0;
+	margin:0;
+	border:1px solid #cccccc;
+	text-align:center;
+	vertical-align: middle;
+} 
+
+table.noformat {
+	border-collapse:collapse;
+} 
+
+
+table#m5airqualdatatable H5 { 
+	color: black;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: left;
+	font-size: small;
+	font-style: normal;
+}
+	
+table#m5airqualdatatable H4 { 
+	color: ff9900;
+	font-weight: bold;
+	font-style: italic;
+	font-family: sans-serif;
+	text-align: left;
+}
+
+	
+table#m5airqualdatatable H1 { 
+	font-size:110%;
+	font-weight:bold;
+}
+
+table#m5airqualdatatable td { 
+	font-size:80%;
+}
+table#m5airqualdatatable th { 
+	font-size:100%;
+	font-weight:bold;
+}
+table#m5airqualdatatable th p{ 
+	font-size:80%;
+	font-weight:normal;
+}
+
+
+.no-js .nav-secondary ul ul ul a, .no-touch .nav-secondary ul ul ul a {
+    display: inline;
+}
+
+
+.breadcrumb  li {
+	margin-left: 0.4em;
+}
+
+/* Google CSE fixes */
+#gcsesearchform {
+	display: none;
+}
+#k2searchform {
+	display: none;
+}
+.gsc-selected-option-container {
+	min-width: 70px !important;
+}
+
+
+form.statfileslist select {
+	opacity: 100 !important;
+	position: relative !important;
+}
+
+form.statfileslist td, form.statfileslist th {
+	vertical-align: top !important;
+}
+
+
+/* Utilities */
+.link-external:after,
+.link-external-xs:after {
+  content: "\00a0\f08e" !important;
+}
+
+.link-external.box-link:after,
+.link-external-xs.box-link:after {
+  content: none !important;
+}
+
+.link-external.blue.right:after, .link-external-xs.blue.right:after {
+    content: none !important;
+}
+
+ul.list-links-final li.link-external-xs:after {
+    content: none !important;
+}
+
+.link-external .box-link-text-small:after {
+    content: "\00a0\f08e" !important;
+}
+
+.no-js .nav-primary, .no-touch .nav-primary {
+    white-space: normal;
+}
